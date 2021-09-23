@@ -14,7 +14,7 @@
 
 - Find ideas:
   - Bakery
-  - Warehouse Mangement
+  - Warehouse Management
   - Library management
   - Digital medical notebook
 
