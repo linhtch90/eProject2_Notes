@@ -22,8 +22,20 @@
 - Database: Clever Cloud, PostgreSQL. Try connecting with Java and DBeaver
   - If difficult -> Local Microsoft SQL
 
-- Next meeting: 22-Sep-2021
+- Next meeting: 23-Sep-2021
   
+## Meeting 1: 23-Sep-2021
 
+- Draw wire frame:
+  - Sign In (manager + cashier)
+    - Username/email
+    - Password
+    - Role
+  - Sign Up (manager + cashier)
+    - As in database tbl_users
+  - Separated windows for manager and cashier
+  - Functions belong separated tabs
+- Design Database + Add books data
+- List functions to work assignment Excel table 
 
 

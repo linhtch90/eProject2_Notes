@@ -3,7 +3,7 @@
 > 23-Sep-2021
 
 ## Link lop hoc
-	
+
 https://meet.google.com/tqv-tmej-nua?fbclid=IwAR1ydkolAA7ZV-gHg2kwH7veFo7ABhGnEWGMaYSfrwdbmWhsdZCUNanK_yU
 
 ## Youtube
@@ -34,28 +34,31 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 
 ### Bookstore Manager
 
-- View list of books
-- Edit book information
-- Add new book
-- View list of receipts
-- Check total revenue
-- Check revenue of the last 7 days
-- Check top 5 selling books
+- View list of books (Tab 1) -> Linh
+- Edit book information (Tab 1)
+- Add new book (Tab 1)
+- Remove book (Tab 1)
+- View list of receipts (Tab 2) -> Huu
+- View receipt detail (Tab 2)
+- Check total revenue (as a label) (Tab 3) -> Toan
+- Check revenue of the last 7 days (as a plot) (Tab 3)
+- Check top 5 selling books (table/list) (Tab 3)
 
 ### Cashier
 
-- Check books selected by customer and equivalent quantities
-- Calculate the total price
-- Received money from customer and exchange
-- Export receipt 
+- Check books selected by customer and equivalent quantities (Tab 1)
+- Calculate the total price (Tab 1)
+- Received money from customer and exchange (Tab 1)
+- Press button -> Export receipt (search library to export qr code, export data as pdf)
+- **Note:** Shift
 
 ## Database
 
-### tbl_users (use for both customer and admin)
+### tbl_users (use for both manager and cashier)
 
 - user_id
 - username
-- password (encrypted -> salt and hash)
+- password (encrypted -> salt and hash) (library: bcrypt)
 - first_name
 - last_name
 - email
@@ -65,23 +68,24 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 ### tbl_books
 
 - book_id
-- cover_photo
+- cover_photo (optional)
 - title
 - author
 - publisher
 - published_date
 - isbn_13
 - price
-- description
 
 ### tbl_receipts
 
 - receipt_id
-- user_id
+- user_id (cashier)
 - created_on
 - sub_total
 - tax (10%)
 - total_price
+- received_money
+- exchange
 
 ### tbl_receipt_items
 
