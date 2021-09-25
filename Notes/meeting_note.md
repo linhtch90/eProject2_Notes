@@ -24,7 +24,7 @@
 
 - Next meeting: 23-Sep-2021
   
-## Meeting 1: 23-Sep-2021
+## Meeting 2: 23-Sep-2021
 
 - Draw wire frame:
   - Sign In (manager + cashier)
@@ -37,5 +37,7 @@
   - Functions belong separated tabs
 - Design Database + Add books data
 - List functions to work assignment Excel table 
+
+
 
 
