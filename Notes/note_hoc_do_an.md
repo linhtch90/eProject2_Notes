@@ -6,6 +6,16 @@
 
 https://meet.google.com/tqv-tmej-nua?fbclid=IwAR1ydkolAA7ZV-gHg2kwH7veFo7ABhGnEWGMaYSfrwdbmWhsdZCUNanK_yU
 
+## Team
+
+### Link team meeting
+
+https://meet.google.com/idt-iezv-gvv
+
+### Link task assignment
+
+https://docs.google.com/spreadsheets/d/1tfqoSTfFs00nWIdsX9b5Hb3oZTdg47P8/edit?usp=sharing&ouid=116386488472863860558&rtpof=true&sd=true
+
 ## Youtube
 
 https://www.youtube.com/watch?v=JYoQ1fdW2VY&list=PLn9lhDYvf_3FeKNOgPMupRocnRDt5cIJs&index=1
@@ -72,8 +82,8 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 - title
 - author
 - publisher
-- published_date
-- isbn_13
+- published_date (remove)
+- isbn_13 (remove)
 - price
 
 ### tbl_receipts
@@ -81,8 +91,8 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 - receipt_id
 - user_id (cashier)
 - created_on
-- sub_total
-- tax (10%)
+- sub_total (remove)
+- tax (10%) (remove)
 - total_price
 - received_money
 - exchange
