@@ -104,3 +104,14 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 - book_id
 - quantity
 - item_price
+  
+## PostgreSQL JDBC
+
+### Storing Binary Data
+
+https://jdbc.postgresql.org/documentation/head/binary-data.html
+
+### Using Java 8 Date and Time classes
+
+https://jdbc.postgresql.org/documentation/head/8-date-time.html
+
