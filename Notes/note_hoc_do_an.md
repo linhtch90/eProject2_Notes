@@ -94,8 +94,9 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 - sub_total (remove)
 - tax (10%) (remove)
 - total_price
-- received_money
-- exchange
+- received_money (remove)
+- exchange (remove)
+- status
 
 ### tbl_receipt_items
 

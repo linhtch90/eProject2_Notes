@@ -71,7 +71,7 @@
 - Icons should have the same theme
 - Understand data type in database to develop models and DAO
   - tbl_books:
-    - ID: B1 -> B20
+    - ID: B1 -> B20 (B99)
     - Price: 000000.00
   - tbl_users:
     - ID: U1 -> U99 (U1: Manager)
@@ -82,6 +82,30 @@
     - ID: I1 -> I99
 - Increase toolbar height to 75 -> Linh
 
+## Meeting 5: 29-Sep-2021
 
+### Content
 
-
+- Check functions for books management (Create, Update, Delete, Reset) prepared by Huu
+  - Cover Photo: target.com -> Search google -> Size: 488x488
+  - Cover photo: label on panel -> add mouse event
+  - Fields: Not null -> Form validation
+  - Data is remote -> Need time to fetch -> Waiting cursor
+- Check functions done by Toan
+- Demo books management functions and help Huu understand what should be done next
+- Cashier Profile management screen size problem and tab name is wrong
+  - Fix height of panel (Huu + Toan)
+  - Fix name of tab Profile Management (Huu)
+- Discuss ideas from teacher
+- If Users management need photo, update database, model, Dao
+- Salt and hash
+  - Change password: 
+    - Old password -> salt and hash -> hash2 -> compare -> hash1 -> same -> validate
+    - New password -> salt and hash -> store into database -> hash3 -> replace hash1
+  
+- Manager: View all accounts, create cashier accounts, delete cashier accounts, change passwords for all accounts
+- User photo: Wait for Huu -> Copy
+- UI
+  - Finish with current size -> Dev functions -> Finish functions -> Ajust UI for both small and fullscreen
+  - Receipts manager: Add column Status, Add button Cancel Receipt
+  - User manager: Add button to list all users, add password and confirm password
