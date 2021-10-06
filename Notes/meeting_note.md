@@ -109,3 +109,28 @@
   - Finish with current size -> Dev functions -> Finish functions -> Ajust UI for both small and fullscreen
   - Receipts manager: Add column Status, Add button Cancel Receipt
   - User manager: Add button to list all users, add password and confirm password
+
+## Meeting 6: 30-Sep-2021
+
+- Linh takes over Users management features from Toan
+
+## Meeting 7: 1-Oct-2021
+
+- Users management
+  - Validate patterns for email
+  - Validate patterns for phone numbers
+  - Successful dialogs for Add, Update, Delete buttons
+
+## Meeting 8: 5-Oct-2021
+
+- Cashier management
+  - Export: create into database, mark as paid, export to pdf
+- Status: Paid and Cancel
+- User management: If manager update info of himself -> do not change role to cashier
+- User Dao: Update for profile photo
+
+## Meeting 9: 6-Oct-2021
+
+- Toan: GUI icons and logo
+- Huu: Create Receipt -> List books and search books (Reuse similar part in books management)
+  
