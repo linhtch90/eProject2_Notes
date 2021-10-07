@@ -134,3 +134,16 @@
 - Toan: GUI icons and logo
 - Huu: Create Receipt -> List books and search books (Reuse similar part in books management)
   
+## Meeting 10: 7-Oct-2021
+
+- Export Receipt -> Insert Receipt (Receipt Dao) (Store Receipt ID) -> Loop through all items in table -> Create receipt items (Receipt Item Dao) (Reuse Receipt ID)
+
+```
+Store receiptId
+insertReceipt();
+for item: itemList
+  Reuse receiptId
+  insertReceiptItem
+```
+
+- UUID -> Create ID for Receipt, Receipt Item

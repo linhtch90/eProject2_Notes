@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=vb3EY3sv1dU&list=PLn9lhDYvf_3Fag5Od5qpaswwYWOeX5
 - receipt_id
 - book_id
 - quantity
-- item_price
+- item_total_price
   
 ## PostgreSQL JDBC
 
