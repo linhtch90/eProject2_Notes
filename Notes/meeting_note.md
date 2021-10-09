@@ -147,3 +147,18 @@ for item: itemList
 ```
 
 - UUID -> Create ID for Receipt, Receipt Item
+
+## Meeting 11: 9-Oct-2021
+
+- Automation tool for creating receipts:
+  - Datetime: 7 days (excluding today) (Today 9-10 -> 2 - 8-Oct)
+  - receiptItems: 1-10: Random
+  - quantity: 1-10: Random
+  - books: B01 - B20: Random
+  - Cashier: C03 - Vicky Blue
+  - Quantity receipts: 10-20 receipts
+  - Delete all data in a table
+  
+```SQL
+DELETE FROM tbl_receipts;
+```
