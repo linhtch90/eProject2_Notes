@@ -1,0 +1,12 @@
+@startuml
+scale 1.5
+left to right direction
+
+"Cashier" as Cashier
+
+Cashier --> (Manage profile information)
+(Manage profile information) ..> (View profile information) : include
+(Manage profile information) ..> (Update profile information) : include
+
+
+@enduml

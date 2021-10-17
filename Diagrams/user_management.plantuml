@@ -1,0 +1,15 @@
+@startuml
+scale 1.5
+left to right direction
+
+"Manager" as Manager
+
+Manager --> (Manage users information)
+(Manage users information) ..> (List all users) : include
+(Manage users information) ..> (Create new users) : include
+(Manage users information) ..> (View detail information\nof a user) : include
+(Manage users information) ..> (Update information\nof a user) : include
+(Manage users information) ..> (Delete a user) : include
+
+
+@enduml

@@ -1,0 +1,50 @@
+@startuml
+
+scale 1.5
+left to right direction
+
+entity "tbl_books" as tbl_books {
+    *book_id: varchar(3) <<PK>>
+    --
+    *title: varchar(300)
+    *author: varchar(100)
+    *publisher: varchar(50)
+    *price: numeric
+    cover_photo: bytea
+}
+
+entity "tbl_users" as tbl_users {
+    *user_id: varchar(3) <<PK>>
+    --
+    *username: varchar(20) <<UNIQUE>>
+    *password: varchar(200)
+    *first_name: varchar(50)
+    *last_name: varchar(50)
+    *email: varchar(50)
+    *phone: varchar(10)
+    *role: varchar(10)
+}
+
+entity "tbl_receipts" as tbl_receipts {
+    *receipt_id: varchar(40) <<PK>>
+    --
+    *user_id: varchar(3) <<FK>>
+    *created_on: timestamp
+    *total_price: numeric
+    *status: varchar(10)
+}
+
+entity "tbl_receipt_items" as tbl_receipt_items {
+    *receipt_item_id: varchar(40) <<PK>>
+    --
+    *receipt_id: varchar(40) <<FK>>
+    *book_id: varchar(3) <<FK>>
+    *quantity: int4
+    *item_total_price: numeric
+}
+
+tbl_users ||..|| tbl_receipts
+tbl_receipt_items }|..|| tbl_receipts
+tbl_books ||..|| tbl_receipt_items
+
+@enduml

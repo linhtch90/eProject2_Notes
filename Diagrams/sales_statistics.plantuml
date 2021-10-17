@@ -1,0 +1,13 @@
+@startuml
+scale 1.5
+left to right direction
+
+"Manager" as Manager
+
+Manager --> (Show sales statistical\ninformation)
+(Show sales statistical\ninformation) ..> (Show revenue of the last\n7 days as a bar graph) : include
+(Show sales statistical\ninformation) ..> (Show total revenue\nof the last 7 days) : include
+(Show sales statistical\ninformation) ..> (Show top 5 best selling books) : include
+
+
+@enduml

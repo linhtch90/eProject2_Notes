@@ -1,0 +1,13 @@
+@startuml
+scale 1.5
+left to right direction
+
+"Manager" as Manager
+
+Manager --> (Manage receipts)
+(Manage receipts) ..> (List all receipts) : include
+(Manage receipts) ..> (View detail information\nof a receipt) : include
+(Manage receipts) ..> (Cancel a receipt) : include
+
+
+@enduml

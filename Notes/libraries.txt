@@ -1,0 +1,10 @@
+Supportive libraries used during application development process include:
+•	PostgreSQL JDBC Driver v42.2
+•	Flatlaf v1.6
+•	Flatlaf IntelliJ Theme v1.6
+•	Apache Common Lang v3.12.0
+•	JBcript v0.4
+•	Java UUID Generator v4.0.1
+•	Apache Common Math v2.2
+•	iTextPDF v5.5.10
+•	JFreeChart v1.0.13

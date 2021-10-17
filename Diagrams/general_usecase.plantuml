@@ -1,0 +1,29 @@
+@startuml
+scale 1.5
+left to right direction
+"Manager" as Manager
+"Cashier" as Cashier
+
+rectangle "Elephant Bookstore" {
+    usecase "Books management" as ucBooks
+    usecase "Receipts management" as ucReceipts
+    usecase "Sales statistics" as ucSales
+    usecase "User management" as ucUser
+    usecase "Sign In\nSign Out" as ucSignInOut
+    usecase "Profile management" as ucProfile
+    usecase "Create receipts" as ucReceiptCreation
+    usecase "Export receipts to PDF" as ucPDF
+}
+
+Manager --> ucBooks
+Manager --> ucReceipts
+Manager --> ucSales
+Manager --> ucUser
+Manager --> ucSignInOut
+
+Cashier --> ucProfile
+Cashier --> ucReceiptCreation
+Cashier --> ucPDF
+Cashier --> ucSignInOut
+
+@enduml

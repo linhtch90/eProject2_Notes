@@ -1,0 +1,16 @@
+@startuml
+scale 1.5
+left to right direction
+
+"Manager" as Manager
+
+Manager --> (Manage books information)
+(Manage books information) ..> (List all books) : include
+(Manage books information) ..> (Search books based on\nID, title, author, publisher) : include
+(Manage books information) ..> (Create new books) : include
+(Manage books information) ..> (View detail information\nof a book) : include
+(Manage books information) ..> (Update information\nof a book) : include
+(Manage books information) ..> (Delete a book) : include
+
+
+@enduml

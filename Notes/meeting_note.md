@@ -161,4 +161,9 @@ for item: itemList
   
 ```SQL
 DELETE FROM tbl_receipts;
+
+select book_id, sum(quantity) as sold_copies from tbl_receipt_items group by book_id order by sold_copies desc limit 5;
+
+select date(created_on) as last_seven_days, sum(total_price) as total_revenue from tbl_receipts group by last_seven_days order by last_seven_days desc limit 7;
+
 ```
