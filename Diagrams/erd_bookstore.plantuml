@@ -43,8 +43,8 @@ entity "tbl_receipt_items" as tbl_receipt_items {
     *item_total_price: numeric
 }
 
-tbl_users ||..|| tbl_receipts
+tbl_users ||..|{ tbl_receipts
 tbl_receipt_items }|..|| tbl_receipts
-tbl_books ||..|| tbl_receipt_items
+tbl_books ||..|{ tbl_receipt_items
 
 @enduml

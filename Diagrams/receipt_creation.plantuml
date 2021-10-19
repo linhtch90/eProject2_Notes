@@ -4,16 +4,16 @@ left to right direction
 
 "Cashier" as Cashier
 
-Cashier --> (Create receipt)
-(Create receipt) ..> (List all books) : include
-(Create receipt) ..> (Search books based on\nID, title, author, publisher) : include
-(Create receipt) ..> (Add new receipt items) : include
-(Create receipt) ..> (Update receipt items) : include
-(Create receipt) ..> (Delete receipt items) : include
-(Create receipt) ..> (Save receipt and receipt items) : include
-(Create receipt) ..> (Export receipt as PDF) : include
-(List all books) ..> (Books management) : extend
-(Search books based on\nID, title, author, publisher) ..> (Books management) : extend
+Cashier --> (Create receipts)
+(Create receipts) ..> (List all books) : include
+(Create receipts) ..> (Search books based on\nID, title, author, publisher) : include
+(Create receipts) ..> (Add new receipt items) : include
+(Create receipts) ..> (Update receipt items) : include
+(Create receipts) ..> (Delete receipt items) : include
+(Create receipts) ..> (Save receipts and receipt items) : include
+(Create receipts) ..> (Export receipts as PDF) : include
+' (List all books) ..> (Manage books information) : extend
+' (Search books based on\nID, title, author, publisher) ..> (Manage books information) : extend
 
 
 @enduml

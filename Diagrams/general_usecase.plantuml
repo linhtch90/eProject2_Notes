@@ -5,12 +5,12 @@ left to right direction
 "Cashier" as Cashier
 
 rectangle "Elephant Bookstore" {
-    usecase "Books management" as ucBooks
-    usecase "Receipts management" as ucReceipts
-    usecase "Sales statistics" as ucSales
-    usecase "User management" as ucUser
+    usecase "Manage books information" as ucBooks
+    usecase "Manage receipts information" as ucReceipts
+    usecase "Show sales statistics\ninformation" as ucSales
+    usecase "Manage users information" as ucUser
     usecase "Sign In\nSign Out" as ucSignInOut
-    usecase "Profile management" as ucProfile
+    usecase "Manage profile information" as ucProfile
     usecase "Create receipts" as ucReceiptCreation
     usecase "Export receipts to PDF" as ucPDF
 }
